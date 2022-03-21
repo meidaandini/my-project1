@@ -1,9 +1,9 @@
-import React from 'react';
+// import React from 'react';
 
-class StateFullComponent extends React.Component {
-    render() {
-        return <p>StateFull Component</p>
-    }
-}
+// class StateFullComponent extends React.Component {
+//     render() {
+//         return <p>StateFull Component</p>
+//     }
+// }
 
-export default StateFullComponent;
+// export default StateFullComponent;

@@ -1,17 +1,15 @@
-import React, {Component} from 'react';
+import React from 'react';
 import YouTubeComp from '../../component/YouTube/YouTubecomp';
+import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
 
-class Home extends Component {
-    render(){
-        return (
-            <div>
-            <YouTubeComp/>
-            <YouTubeComp/>
-            <YouTubeComp/>
-            <YouTubeComp/>
-            </div >
-        )
-    }
+
+const Home = () => {
+    return (
+        <div>
+           {/* <YouTubeComp title="judul"/> */}
+           <LifeCycleComp/>
+        </div >
+    )
 }
 
 export default Home;
