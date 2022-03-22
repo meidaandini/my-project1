@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import HelloComponent from './component/HelloComponent';
 import StateFullComponent from './container/StateFullComponent';
 import YouTubeComp from './component/YouTube/YouTubecomp';
-import Home from './container/Home/Home';
+import Home from './container/Home/Home.jsx';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 

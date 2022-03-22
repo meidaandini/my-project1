@@ -1,15 +1,35 @@
-import React from 'react';
-import YouTubeComp from '../../component/YouTube/YouTubecomp';
+import React, {Component} from 'react';
+// import YouTubeComp from '../../component/YouTube/YouTubecomp';
 import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
+// import BlogPost from '../BlogPost/BlogPost';
 
 
-const Home = () => {
-    return (
-        <div>
-           {/* <YouTubeComp title="judul"/> */}
-           <LifeCycleComp/>
-        </div >
-    )
+class Home extends Component {
+    state = {
+        showComponent: true
+    }
+
+    componentDidMount(){
+        // setTimeout(() => {
+        //     this.setState({
+        //     showComponent: false
+        //     })    
+        // }, 15000);
+    }
+    render(){
+        return(
+            <div>
+                {/* <YouTubeComp title="judul"/> */}
+                <p>LifeCycle Component</p>
+                <hr />
+                {
+                    this.state.showComponent ?
+                        <LifeCycleComp /> : null
+                } 
+                
+            </div>
+        )
+    }
 }
 
 export default Home;
