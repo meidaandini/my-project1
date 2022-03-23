@@ -29,6 +29,7 @@ class Home extends Component {
                 <p>Blog Post</p>
                 <hr />
                 <BlogPost/>
+                
 
                 
             </div>
