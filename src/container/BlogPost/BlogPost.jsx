@@ -6,7 +6,8 @@ import axios from 'axios';
 
 class BlogPost extends Component {
     state = {
-        post: []
+        post: [],
+        author: []
     }
 
     componentDidMount(){
@@ -18,10 +19,10 @@ class BlogPost extends Component {
         //     })
         // })
         axios.get('http://localhost:3004/posts')
-        .then((result)=>{
-            console.log(result.data);
+        .then((res)=>{
+            console.log(res.data);
             this.setState({
-                post: result.data
+                post: res.data,
             })
         })
     }

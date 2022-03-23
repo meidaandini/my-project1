@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 // import YouTubeComp from '../../component/YouTube/YouTubecomp';
 // import LifeCycleComp from '../LifeCycleComp/LifeCycleComp';
 import BlogPost from '../BlogPost/BlogPost';
+import BlogPostFunctional from '../BlogPostFunctional/BlogPostFunctional';
 
 
 class Home extends Component {
@@ -28,7 +29,8 @@ class Home extends Component {
                 }  */}
                 <p>Blog Post</p>
                 <hr />
-                <BlogPost/>
+                {/* <BlogPost/> */}
+                <BlogPostFunctional />
                 
 
                 
