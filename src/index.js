@@ -8,7 +8,7 @@ import StateFullComponent from './container/StateFullComponent';
 import YouTubeComp from './component/YouTube/YouTubecomp';
 import Home from './container/Home/Home.jsx';
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
